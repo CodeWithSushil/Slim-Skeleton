@@ -29,7 +29,6 @@ class ShutdownHandler
     public function __invoke()
     {
         $error = error_get_last();
-<<<<<<< HEAD
         if (!$error) {
             return;
         }
@@ -72,7 +71,6 @@ class ShutdownHandler
         }
 
         return "FATAL ERROR: {$errorMessage}. on line {$errorLine} in file {$errorFile}.";
-=======
         if ($error) {
             $errorFile = $error['file'];
             $errorLine = $error['line'];
@@ -114,6 +112,5 @@ class ShutdownHandler
             $responseEmitter = new ResponseEmitter();
             $responseEmitter->emit($response);
         }
->>>>>>> a475f9d (Slim App)
     }
 }
