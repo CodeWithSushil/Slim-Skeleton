@@ -24,6 +24,7 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
+<<<<<<< HEAD
         "monolog/monolog": "^2.9",
         "php-di/php-di": "^6.4",
         "slim/psr7": "^1.6",
@@ -36,6 +37,20 @@
         "phpstan/phpstan": "^1.10",
         "phpunit/phpunit": "^9.6.17",
         "squizlabs/php_codesniffer": "^3.9"
+=======
+        "monolog/monolog": "^2.8",
+        "php-di/php-di": "^6.4",
+        "slim/psr7": "^1.5",
+        "slim/slim": "^4.10"
+    },
+    "require-dev": {
+        "jangregor/phpstan-prophecy": "^1.0.0",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/extension-installer": "^1.2.0",
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^9.5.26",
+        "squizlabs/php_codesniffer": "^3.7"
+>>>>>>> a475f9d (Slim App)
     },
     "config": {
         "allow-plugins": {

@@ -1,4 +1,5 @@
 .idea/
+<<<<<<< HEAD
 # IDE
 .vscode/
 nbproject/
@@ -17,3 +18,11 @@ cache.properties
 # Composer
 composer.phar
 composer.lock
+=======
+.vscode/
+/coverage/
+/vendor/
+/logs/*
+!/logs/README.md
+.phpunit.result.cache
+>>>>>>> a475f9d (Slim App)
