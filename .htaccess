@@ -1,13 +1,10 @@
 Options All -Indexes
 
-<<<<<<< HEAD
-=======
 <Files .htaccess>
 order allow,deny
 deny from all
 </Files>
 
->>>>>>> a475f9d (Slim App)
 <IfModule mod_rewrite.c>
   # Redirect to the public folder
   RewriteEngine On

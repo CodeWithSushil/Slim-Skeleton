@@ -6,11 +6,8 @@ volumes:
 
 services:
     slim:
-<<<<<<< HEAD
-        image: php:8-alpine
-=======
-        image: php:7-alpine
->>>>>>> a475f9d (Slim App)
+        image: php:8 -alpine
+        image: php:7 -alpine
         working_dir: /var/www
         command: php -S 0.0.0.0:8080 -t public
         environment:
